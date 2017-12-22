@@ -1,5 +1,6 @@
 # 测试
 
+```html
 this.$http.post(`[URL]`, JSON.stringify({
   [PARAMNAME]: [PARAM]
 }), {headers: {'Content-Type': 'application/json'}}).then((response) => {
@@ -22,3 +23,4 @@ this.$http.post(`[URL]`, JSON.stringify({
     }
   })
 })
+```
